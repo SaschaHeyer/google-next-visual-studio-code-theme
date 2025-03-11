@@ -1,0 +1,70 @@
+{
+	"name": "Google Next 2025",
+	"colors": {
+		"editor.background": "#FFFFFF",
+		"editor.foreground": "#202124",
+        "list.activeSelectionIconForeground": "#fff",
+        "editorCursor.foreground": "#EA4335",
+        "editor.selectionBackground": "#E8EAED",
+        "editor.selectionHighlightBackground": "#DADCE0",
+        "editor.lineHighlightBackground": "#F1F3F4",
+        "editorLineNumber.foreground": "#9AA0A6",
+        "editorLineNumber.activeForeground": "#4285F4",
+        "editorWhitespace.foreground": "#BDC1C6",
+        "editorIndentGuide.background": "#DADCE0",
+        "editorIndentGuide.activeBackground": "#9AA0A6",
+        "editorBracketMatch.background": "#FBBC04",
+        "editorBracketMatch.border": "#EA4335",
+        "editorCursor.background": "#34A853"
+	},
+    "fonts": {
+        "editor.fontFamily": "'Google Sans', 'Segoe UI', 'Helvetica Neue', sans-serif"
+    },
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {"fontStyle": "italic", "foreground": "#9AA0A6"}
+		},
+		{
+			"name": "Keywords",
+			"scope": ["keyword", "storage"],
+			"settings": {"foreground": "#4285F4", "fontStyle": "bold"}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {"foreground": "#34A853", "fontStyle": "bold"}
+		},
+		{
+			"name": "Functions",
+			"scope": ["entity.name.function", "support.function"],
+			"settings": {"fontStyle": "bold", "foreground": "#FBBC04"}
+		},
+		{
+			"name": "Variables",
+			"scope": ["variable", "support.variable"],
+			"settings": {"foreground": "#EA4335", "fontStyle": "bold"}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {"foreground": "#4285F4"}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": ["constant.numeric", "constant.character", "constant"],
+			"settings": {"foreground": "#FBBC04", "fontStyle": "bold"}
+		},
+		{
+			"name": "Types",
+			"scope": ["storage.type", "support.type"],
+			"settings": {"foreground": "#34A853", "fontStyle": "bold"}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {"foreground": "#EA4335"}
+		}
+	]
+}

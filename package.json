@@ -1,0 +1,22 @@
+{
+  "name": "googlenext2025",
+  "displayName": "GoogleNext2025",
+  "description": "Google Next 2025 Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "Sascha-Heyer",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Google Next 2025",
+        "uiTheme": "vs",
+        "path": "./themes/Google Next 2025-color-theme.json"
+      }
+    ]
+  }
+}

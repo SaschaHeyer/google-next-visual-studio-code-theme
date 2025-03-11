@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../gen-ai-livestream"
+		},
+		{
+			"path": "../../../../coding-agent-sample-repository"
+		},
+		{
+			"path": "../../../../customer-nextory-agent"
+		},
+		{
+			"path": "../../../../coding-agent-sample-repository-2"
+		},
+		{
+			"path": "../../../../loiter-labs"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}
